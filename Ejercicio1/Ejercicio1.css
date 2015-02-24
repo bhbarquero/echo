@@ -102,3 +102,32 @@ footer{
    article{width:100%;}
    aside{clear:both;}
 }
+
+@media screen and (max-width: 470px){
+
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	img{
+		max-width: 100%;
+	    height: auto;
+	    display: block;
+	}
+
+	.menu1{
+		margin: 2%;
+	}
+
+	.menu1 ul li{
+		display: block;
+		border-right: none;
+		text-align: left;
+	}
+
+
+	article, aside{
+		width: 100%;
+	}
+}
