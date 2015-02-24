@@ -94,3 +94,11 @@ footer{
 	height: 20px;
 	padding-right: 5px;
 }
+
+@media print{
+   header { display:none;}
+   footer{display:none;}
+   .menu1{ display:none;}
+   article{width:100%;}
+   aside{clear:both;}
+}
