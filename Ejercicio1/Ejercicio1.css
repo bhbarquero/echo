@@ -131,3 +131,38 @@ footer{
 		width: 100%;
 	}
 }
+@media screen and (max-width: 320px){
+	img{
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+	.dfoot{
+	float: left;
+}
+	article{
+	float: left;
+	width: 96%;
+	padding: 2%;
+	text-align: justify;
+}
+
+header h1{
+	text-align: center;
+}
+.menu1{
+	margin: 2%;
+}
+.menu1 ul li{
+	display: block;
+	border-right:0px;
+	text-align: left;
+}
+footer{
+	height: 40px;
+}
+}
