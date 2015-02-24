@@ -103,21 +103,28 @@ footer{
    aside{clear:both;}
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 240px){
 
 	body{
 		margin: 0px;
 		padding: 0px;
+		width: 100%;
+	}
+
+	header{
+		width: 100%;
+		margin-right: 0px;
 	}
 
 	img{
-		max-width: 100%;
-	    height: auto;
-	    display: block;
+		width: 100%;
+		height: auto;
 	}
 
 	.menu1{
+		width:96%;
 		margin: 2%;
+		padding: 0px;
 	}
 
 	.menu1 ul li{
@@ -126,11 +133,13 @@ footer{
 		text-align: left;
 	}
 
-
 	article, aside{
-		width: 100%;
+		width: 96%;
+		margin: 2px;
+		padding: 0px;
 	}
 }
+
 @media screen and (max-width: 320px){
 	img{
 		max-width: 100%;
