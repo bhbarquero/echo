@@ -1,3 +1,5 @@
+/*Element Selectors*/
+
 body{
 	margin:5px;
 }
@@ -9,41 +11,8 @@ header{
 	float: left;
 }
 
-header h1{
-	padding: 20px;
-}
-
-.menu1{
-	
-	width: 100%;
-	float: left;
-}
-
-.menu1 ul{
-	padding: 5px;
-	margin: 0px 0px 0px 2px;
- 	list-style: none;
-}
-
-.menu1 ul li{
-	display: inline;
-	border-right: 1px solid white;
-	text-align: center;
-}
-
-.menu1 ul li a{
-	 text-decoration: none;
-	 color:white;
-	 padding-right: 5px;
-}
-
-.menu1{
-	color:white;
-	background-color:black;
-	margin-top: 0px;
-}
-
 h1{
+	padding: 20px;
 	margin:0px;
 	font-size:28px;
 	font-weight: bold;
@@ -73,8 +42,38 @@ footer{
 	width: 100%;
 	height: 20px;
 	background-color: silver;
-
 }
+
+
+/*Class, Attribute and Pseudo Selectors*/
+
+.menu1{
+	
+	width: 100%;
+	float: left;
+	color:white;
+	background-color:black;
+	margin-top: 0px;
+}
+
+.menu1 ul{
+	padding: 5px;
+	margin: 0px 0px 0px 2px;
+ 	list-style: none;
+}
+
+.menu1 ul li{
+	display: inline;
+	border-right: 1px solid white;
+	text-align: center;
+}
+
+.menu1 ul li a{
+	 text-decoration: none;
+	 color:white;
+	 padding-right: 5px;
+}
+
 .nfoot{
 	float: left;
 	height: 20px;
@@ -83,7 +82,7 @@ footer{
 
 .nfoot a{
 	text-decoration: none;
-	padding: 5px;
+	padding-right: 5px;
 	color: black;
 
 }
@@ -91,20 +90,15 @@ footer{
 .dfoot{
 	float: right;
 	margin: 0px;
-	height: 20px;
 	padding-right: 5px;
 }
 
-@media print{
-   header { display:none;}
-   footer{display:none;}
-   .menu1{ display:none;}
-   article{width:100%;}
-   aside{clear:both;}
-}
+
+/*Media query*/
 
 @media screen and (max-width: 240px){
 
+	/*Element Selectors*/
 	body{
 		margin: 0px;
 		padding: 0px;
@@ -121,6 +115,14 @@ footer{
 		height: auto;
 	}
 
+	article, aside{
+		width: 96%;
+		margin: 2%;
+		padding: 0px;
+	}
+
+	/*Class, Attribute and Pseudo Selectors*/
+
 	.menu1{
 		width:96%;
 		margin: 2%;
@@ -133,11 +135,7 @@ footer{
 		text-align: left;
 	}
 
-	article, aside{
-		width: 96%;
-		margin: 2%;
-		padding: 0px;
-	}
+	
 	.dfoot, .nfoot{
 		float: left;
 		width: 100%;
@@ -147,11 +145,46 @@ footer{
 }
 
 @media screen and (max-width: 320px){
+
+	/*Element Selectors*/
+
 	body{
 		margin: 0px;
 		padding: 0px;
 	}
 
+	img{
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	aside {
+		width: 96%;
+		margin: 2%;
+	}
+
+	article{
+		width: 96%;
+		margin: 2%;
+		float: left;
+		padding: 0px;
+		text-align: justify;
+	}
+
+	footer{
+		height: 40px;
+	}
+
+	header h1{
+		text-align: center;
+	}
+
+	section h1{
+		margin-left: 10px;
+	}
+
+	/*Class, Attribute and Pseudo Selectors*/
 	.menu1{
 		width: 96%;
 		margin: 2%;
@@ -167,40 +200,10 @@ footer{
 	 	list-style: none;
 	}
 
-	img{
-		max-width: 100%;
-		height: auto;
-		display: block;
-	}
-
 	.dfoot, .nfoot{
 		float: left;
 		width: 100%;
 		text-align: center;
 
-	}
-	
-	aside {
-		width: 96%;
-		margin: 2%;
-	}
-
-	article{
-		width: 96%;
-		margin: 2%;
-		float: left;
-		padding: 0px;
-		text-align: justify;
-	}
-
-	header h1{
-		text-align: center;
-	}
-	footer{
-		height: 40px;
-	}
-
-	section h1{
-		margin-left: 10px;
 	}
 }
