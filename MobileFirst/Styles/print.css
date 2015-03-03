@@ -1,0 +1,9 @@
+
+	/*Element Selectors*/
+   header { display:none;}
+   footer{display:none;}
+   article{width:100%;}
+   aside{clear:both;}
+
+	/*Class, Attribute and Pseudo Selectors*/
+   .menu1{ display:none;}
