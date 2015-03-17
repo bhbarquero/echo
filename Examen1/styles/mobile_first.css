@@ -34,16 +34,21 @@ img
 {
 	display: none;
 }
+.last{
+	border:none!important;
+}
 /*Media query*/
 @media screen and (min-width: 481px){
 	/*Element Selectors*/
 	body
 	{
+		margin-top: 1%;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
 	h1
 	{
+		margin-top: 0px;
 		width: 45%;
 	}
 	section
@@ -81,9 +86,8 @@ img
 	{
 		display: block;
 	}
-	.menu2 ul
-	{
-		text-align: center;
+	.menu2 ul {
+		padding-left: 0px;
 	}
 	.menu2 ul li
 	{
