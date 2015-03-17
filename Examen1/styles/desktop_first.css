@@ -140,4 +140,7 @@ img
 	{
 		display: none;
 	}
+	.actual{
+		background-color: grey !important;
+	}
 }
