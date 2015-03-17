@@ -37,6 +37,10 @@ img
 .last{
 	border:none!important;
 }
+.actual
+{
+	background-color: gray!important;
+}
 /*Media query*/
 @media screen and (min-width: 481px){
 	/*Element Selectors*/
@@ -98,6 +102,10 @@ img
 	.section1
 	{
 		margin-right: 2%;
+	}
+	.actual
+	{
+		background-color: transparent!important;
 	}
 	article, footer, header, h1, section, .menu1
 	{
