@@ -34,3 +34,69 @@ img
 {
 	display: none;
 }
+/*Media query*/
+@media screen and (min-width: 481px){
+	/*Element Selectors*/
+	body
+	{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	h1
+	{
+		width: 45%;
+	}
+	section
+	{
+		width: 49%;
+	}
+	footer
+	{
+		width: 100%;
+	}
+	/*Class, Attribute and Pseudo Selectors*/
+	.menu1
+	{
+		margin: 0;
+		width: 55%;
+	}
+	.menu1 ul
+	{
+		text-align: right;
+	}
+	.menu1 ul li
+	{
+		background-color: transparent;
+		border-right: 1px solid black;
+		display: inline;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+	.menu1 ul li a
+	{
+		padding-right: 5px;
+	}
+	.menu2
+	{
+		display: block;
+	}
+	.menu2 ul
+	{
+		text-align: center;
+	}
+	.menu2 ul li
+	{
+		border-right: 1px solid black;
+		display: inline;
+		padding-right: 2px;
+	}
+	.section1
+	{
+		margin-right: 2%;
+	}
+	article, footer, header, h1, section, .menu1
+	{
+		float: left;
+	}
+}
