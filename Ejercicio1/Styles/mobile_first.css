@@ -1,0 +1,36 @@
+/*Element Selectors*/
+body
+{
+	margin: 2%;
+}
+header
+{
+	width: 100%;
+}
+img
+{
+	height: auto;
+	width: 100%;
+}
+/*Class, Attribute and Pseudo Selectors*/
+.menu1
+{
+	width: 100%;
+}
+.menu1 ul
+{
+	list-style: none;
+	padding: 0px;
+}
+.menu1 ul li
+{
+	background-color: silver;
+	margin-bottom: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	text-align: center;
+}
+.menu2
+{
+	display: none;
+}
