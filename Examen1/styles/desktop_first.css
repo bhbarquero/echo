@@ -1,1 +1,143 @@
-
+/*Elements Selectors*/
+h1
+{
+	float: left;
+	margin-bottom: 1%;
+	margin-left: 4%;
+	width: 46%;
+}
+article
+{
+	clear: both;
+}
+img
+{
+	float: left;
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 92%;
+	height: auto;
+}
+/*class, attribute and pseudo selectors*/
+.section1
+{
+	float: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	width: 54%;
+}
+.section2,.section3,.section4
+{
+	float: left;
+	margin-right: 5%;
+	width: 35%;
+}
+.menu1
+{
+	float: left;
+	margin-right: 5%;
+	margin-top: 4%;
+	text-align: right;
+	width: 45%;
+}
+.menu1 ul
+{
+	list-style: none;
+	margin: 0px 0px 0px 2px;
+	padding: 0.5%;
+}
+.menu1 ul li
+{
+	border-right: 1px solid black;
+	display: inline;
+	text-align: center;
+}
+.menu1 ul li a
+{
+	padding-right: 1%;
+	text-decoration: none;
+}
+.menu2
+{
+	clear: both;
+	margin-top: 4%;
+	text-align: center;
+}
+.menu2 ul
+{
+	list-style: none;
+	margin: 0px 0px 0px 2px;
+	padding: 0.5%;
+}
+.menu2 ul li
+{
+	border-right: 1px solid black;
+	display: inline;
+	text-align: center;
+}
+.menu2 ul li a
+{
+	padding-right: 0.4%;
+	text-decoration: none;
+}
+.last
+{
+	border-right: none !important;
+}
+/*Media Queries*/
+@media screen and (max-width: 480px)
+{
+	/*Universal selectors*/
+	*
+	{
+		margin: 0;
+		padding: 0;
+	}
+	/*elements selectors*/
+	h1
+	{
+		margin-left: 2%;
+		width: 98%;
+	}
+	img
+	{
+        margin-bottom: 3%;
+		margin-left: 2%;
+		margin-right: 2%;
+		width: 96%;
+	}
+	/*class, attribute and pseudo selectors*/
+	.menu1
+	{
+		margin-bottom: 2%;
+		margin-left: 2%;
+		margin-right: 2%;
+		width: 96%;
+	}
+	.menu1 ul
+	{
+		list-style: none;
+		width: 100%;
+	}
+	.menu1 ul li
+	{
+		background-color: silver;
+		border: none;
+		display: block;
+		margin-bottom: 1%;
+		padding-bottom: 1%;
+		padding-top: 1%;
+		text-align: center;
+	}
+	.section1, .section2, .section3, .section4
+	{
+		margin-bottom: 3%;
+		margin-left: 2%;
+		margin-right: 2%;
+		width: 96%;
+	}
+	.menu2
+	{
+		display: none;
+	}
+}
