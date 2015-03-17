@@ -1,1 +1,14 @@
+/*Element Selectors*/
+img{
+	display:none;
+}
 
+/*Class, Attribute and Pseudo Selectors*/
+.section2 p{
+	border: none;
+	background-color: none;
+}
+
+.menu2{
+	display:none;
+}
