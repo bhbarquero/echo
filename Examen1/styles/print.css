@@ -4,6 +4,10 @@ img{
 }
 
 /*Class, Attribute and Pseudo Selectors*/
+.section1, .section2, .section3, .section4, footer, hr{
+	clear:both;
+}
+
 .section2 p{
 	border: none;
 	background-color: none;
