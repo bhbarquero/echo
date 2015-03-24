@@ -41,8 +41,9 @@ footer{
 .abajo{
 	background-color: transparent;
 }
-span{
+.spanFooter{
 	color: #9d9d9d;
+	font-size:0.7em;
 }
 
 @media screen and (max-width: 800px){
