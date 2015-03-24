@@ -34,6 +34,25 @@ div > p > span {
 .links:hover{
   text-decoration: none;
 }
+footer{
+
+	background-color: black
+}
+.abajo{
+	background-color: transparent;
+}
+span{
+	color: #9d9d9d;
+}
+@media screen and (max-width: 800px){
+		.abajo{
+			display: none;
+		}
+		.prueba{
+			width: 100%;
+			text-align: center;
+		}
+}
 
 
 
