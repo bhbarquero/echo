@@ -1,12 +1,41 @@
+/*Elements selectors*/
 body {
   padding-top: 50px;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-
 img {
   height: auto;
   width: 100%;
 }
+h5 {
+	 color: red;
+}
+div > h4 {
+	 color: green;
+}
+div > h3 {
+	 color: blue;
+}
+div > p > span {
+	color:red;
+}
+/*Class, attribute and pseudo selectors*/
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.marco{
+	border:2px solid black;
+	background-color: #ffcc99;
+	padding: 1%;
+}
+
+a:link{
+  text-decoration: underline;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+
+
