@@ -28,11 +28,10 @@ div > p > span {
 	background-color: #ffcc99;
 	padding: 1%;
 }
-
-a:link{
+.links:link{
   text-decoration: underline;
 }
-a:hover{
+.links:hover{
   text-decoration: none;
 }
 
