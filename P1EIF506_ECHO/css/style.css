@@ -1,0 +1,213 @@
+    /*Element Selectors*/
+	/* Basic */
+	body, input, select, textarea {
+		font-size: 11.5pt;
+	}
+	
+	/*Class, Attribute and Pseudo Selectors*/
+	/* Basic */
+	.navbar-toggle{
+		display: none;
+	}
+	
+	/*Spotlight*/
+	.spotlight.top .content {
+		padding: 3.825em 0 1.825em 0;
+	}
+
+	.spotlight.bottom .content {
+		padding: 3.825em 0 2.95em 0;
+	}
+
+	.spotlight.left .content, .spotlight.right .content {
+		padding: 4.5em 2.5em;
+		width: 25em;
+	}
+
+	/* Wrapper */
+	.wrapper {
+		padding: 4.5em 0 2.5em 0;
+	}
+
+	/* Dropotron */
+	.dropotron.level-0 {
+		font-size: 1em;
+	}
+
+	/* Banner */
+	#banner .content {
+		padding: 4.5em;
+	}
+
+	/* Footer */
+	#footer {
+		padding: 4.5em 0;
+
+	}
+	
+	/*Sobre nosotros*/
+	.major{
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.major h2{
+		font-family: Mad!important;
+		margin-bottom: 10px!important;
+	}
+
+	.major h3{
+		margin-bottom: 30px!important;
+	}
+
+	.breadcrumb{
+		padding-top: 0!important;
+		background-color: transparent!important;
+	}
+
+	#main{
+		padding-top: 4.7em;
+		text-align: justify;
+		margin-bottom: 10px;
+	}
+
+	.img-responsive {
+		margin: 0 auto 10px;
+		border-radius: 10px;
+	}
+	
+	/*Contactenos*/
+	#comentario, #nombre, #email{
+		background-color: transparent;
+		border-color: #ccc;
+		color: white;
+	}
+
+	#enviar, #buscar {
+		float: right;
+		margin-bottom: 15px;
+		margin-top: 5px;
+	}
+
+	/*Reservaciones*/
+	#b1, #b2, #b3, #b4{
+		background-color: transparent;
+		color: white;
+	}
+
+	.reservar{
+		margin-bottom: 5px;
+		background-color: #D9534F;
+	}
+	.reservar:hover{
+		color:white!important;
+		font-weight: bold;
+	}
+	
+	.carousel-caption{
+		padding-bottom: 0!important;
+	}
+
+	/*Share buttons*/
+	#share-buttons img {
+		width: 35px;
+		padding: 5px;
+		border: 0;
+		box-shadow: 0;
+		display: inline;
+	}
+	
+	/*Notificaion*/
+	.alert {
+	  padding: 15px;
+	  margin-bottom: 20px;
+	  border: 1px solid #eed3d7;
+	  border-radius: 4px;
+	  position: absolute;
+	  bottom: 0px;
+	  right: 21px;
+	  float: right; 
+	  clear: right;
+	}
+	
+	.alert-red {
+	  color: white;
+	  background-color: #DA4453;
+	}
+	.alert-green {
+	  color: white;
+	  background-color: #37BC9B;
+	}
+	
+	/*Media Query*/
+	@media screen and (max-width: 767px) {
+		/*Element Selectors*/
+		/* Basic */
+		body, input, select, textarea {
+			font-size: 12pt;
+		}
+
+		h2 {
+			font-size: 1.5em;
+		}
+
+		h3 {
+			font-size: 1.2em;
+		}
+
+		h4 {
+			font-size: 1em;
+		}
+
+		/* Section/Article */
+		header p br {
+			display: none;
+		}
+
+		header h2 + p {
+			font-size: 1em;
+		}
+
+		header h3 + p {
+			font-size: 1em;
+		}
+
+		header h4 + p,
+		header h5 + p,
+		header h6 + p {
+			font-size: 0.9em;
+		}
+		
+		/*Class, Attribute and Pseudo Selectors*/
+		#menu {
+			padding:0!important;
+
+		}
+
+		#menu nav{
+			background-color: #272833;
+		}
+
+		.navbar-btn{
+			margin-left: 15px;
+		}
+
+		header.major {
+			margin: 0 0 2em 0;
+		}
+		
+		/* Spotlight */
+		.spotlight {
+			box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+		}
+		.spotlight .image.main {
+			max-height: 60vh;
+		}
+		.spotlight .content {
+			border-top-width: 0.2em !important;
+			padding: 3.25em 1.5em 1.25em 1.5em !important;
+		}
+		.navbar-toggle{
+			display: block;
+		}
+	}
